@@ -25,6 +25,7 @@ const products = [{
 }];
 
 let prodcutsHTML =''
+
 products.forEach(product => {
   prodcutsHTML+= `
     <div class="product-container">
@@ -77,6 +78,8 @@ products.forEach(product => {
     </div>
   
   `;
+},{
+  
 });
 
 document.querySelector('.js-products-grid')
