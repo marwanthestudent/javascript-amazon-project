@@ -4,7 +4,12 @@ import { loadProducts } from "../data/products.js";
 //import '../data/backend-practice.js'
 //import '../data/cart-class.js'; just for practice
 
-loadProducts(()=>{
+
+new Promise((resolve) => {
+  loadProducts(()=>{
+    resolve();
+  });
+}).then(()=>{
   renderOrderSummary();
   renderPaymentSummary();
 });
