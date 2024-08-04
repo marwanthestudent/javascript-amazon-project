@@ -7,14 +7,21 @@ import { loadProducts,loadProductsFetch } from "../data/products.js";
 async function loadPage(){
   console.log('load page');
 
-  await loadProductsFetch(); 
+  try {
+    //throw 'error1';
+    await loadProductsFetch(); 
+
+  } catch(error){
+    console.log('Unexpexted error. Please try again later');
+  }
+  
   renderOrderSummary();
   renderPaymentSummary();
  
 }
 loadPage();
 
-/*
+/* 
 loadProductsFetch().then(()=>{
   renderOrderSummary();
   renderPaymentSummary();
