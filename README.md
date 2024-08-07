@@ -23,4 +23,4 @@ To get started with this project:
 1. Clone the repository:
    ```bash
    git clone https://github.com/marwanthestudent/javascript-amazon-project.git
-  Then open with live server to check it out
+  Then open with live server to check it out!
