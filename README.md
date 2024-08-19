@@ -1,6 +1,7 @@
 # Amazon Clone
 
 This project is a clone of the Amazon website built using vanilla JavaScript. It replicates key functionalities and UI elements of the original site, providing a simplified shopping experience.
+![image](https://github.com/user-attachments/assets/91c03a5f-a8ed-44f8-9b59-d8d99bbc1810)
 
 ## Features
 
